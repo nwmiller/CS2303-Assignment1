@@ -1,0 +1,23 @@
+Nathaniel Miller
+nwmiller@wpi.edu
+
+Assignment #1 readme:
+
+Program Description -
+	The program's purpose is to calculate the average grade, as well as the maximum and minimum grade of a set of input grades. The user is able to enter any number of grades up to twenty (20) grades. The program will calculate the average grade, maximum grade, and minimum grade once that twenty grade cap is reached. However, if a set of fewer than 20 grades is desired or necessary, then to begin the calculations before the cap, a negative number can be entered at any time to end the input process. Three values are printed out to the user: the average grade of the grade set, the minimum grade of the grade set, and the maximum grade of the grade set.
+
+	Cautions & Notes:
+		-WARNING:Input other than integers (such as characters) are not
+			handled/accepted in this program. If entered, the 				program will loop till 20 and output values of 0 for 				the calculations.  
+		-Grades over 100 are not accepted. If entered, and error
+			message will be printed and grade input will continue.
+		-If no grades are entered (as in a negative # is entered as 				the first input) then an error message is printed.
+			The program must be run again.
+
+Instructions:
+	1. Create directory for all assigment files. Or use an existing directory.
+	2. Copy or move all source files, including header and make files, to created 			or existing directory.
+	3. In Terminal travel to directory that the files were copied or moved into.
+	4. Use the "make" (without quotes) command in Terminal in order to both 		compile the .c files into .o files and to link them into the 			executable "assig1".
+	5. To run the program, then use the command ./assig1 in Terminal.
+	6. Follow instructions printed.
